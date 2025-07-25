@@ -77,7 +77,7 @@ starccm+ \
 
 根据用户手册的介绍（[通过 SSH 登录集群 - 上海交大超算平台用户手册](https://docs.hpc.sjtu.edu.cn/login/sshlogin.html)），经过安全升级后，超算平台不再支持传统的公私钥免密，将公钥写入个人家目录的 `~/.ssh/authorized_keys` **不会** 再赋予免密登录的权限，因此可能需要前往 [超算账号管理平台](https://my.hpc.sjtu.edu.cn/) 申请免密证书。
 
-在[超算账号管理平台](https://my.hpc.sjtu.edu.cn/)中登录以后，点击右上角用户名-个人主页-申请免密，选择上传私钥的方法，将步骤1中生成的~/.ssh/id_rsa.pub下载到本地后再上传文件至平台
+在[超算账号管理平台](https://my.hpc.sjtu.edu.cn/)中登录以后，点击右上角用户名-个人主页-申请免密，选择上传公钥的方法，将步骤1中生成的~/.ssh/id_rsa.pub下载到本地后再上传文件至平台
 
 ![image](https://github.com/guoX66/sjtu_hpc_star/blob/main/assets/1.png)
 
