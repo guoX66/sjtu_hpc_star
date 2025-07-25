@@ -2,7 +2,7 @@
 
 ## 1 前期准备
 
-参考官用户手册：[STAR-CCM+ - 上海交大超算平台用户手册](https://docs.hpc.sjtu.edu.cn/app/engineeringscience/star-ccm.html)
+参考用户手册：[STAR-CCM+ - 上海交大超算平台用户手册](https://docs.hpc.sjtu.edu.cn/app/engineeringscience/star-ccm.html)
 
 ```
 nano ~/.ssh/known_hosts
